@@ -41,7 +41,7 @@ header {
     color: #fff;
 }
 
-.mn {
+.queso {
     position: fixed;
     top: 30px;
     right: 30px;
@@ -59,7 +59,7 @@ header {
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);   
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

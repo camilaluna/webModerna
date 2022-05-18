@@ -1,10 +1,10 @@
 const imagenes = document.querySelectorAll('.img-galeria')
 const imagenesLight = document.querySelector('.agregar-imagen')
 const contenedorLight = document.querySelector('.imagen-light')
-const menu1 = document.querySelector('mn')
+const menu1 = document.querySelector('queso')
 
 imagenes.forEach(imagen => {
-    imagen.appEventListener('click', () => {
+    imagen.addEventListener('click', () => {
         aparecerImagen(imagen.getAttribute('src'))
     })
 })
